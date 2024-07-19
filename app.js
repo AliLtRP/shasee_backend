@@ -3,18 +3,21 @@ const app = express();
 
 const cors = require('cors');
 const dotenv = require('dotenv').config();
-const {connect} = require('./db/database');
-
+const { dbConnection } = require('./db/database');
+const authRouter = require('./routes/user.route');
 
 app.use(cors({
     origin: "*",
     credentials: true,
     allowedHeaders: [""]
 }));
+app.use(express.json({ limit: '10mb' }));
+
+app.use('/api/user', authRouter);
 
 app.get('/', (req, res) => {
     res.send('hello world')
 });
 
-connect();
+dbConnection();
 app.listen(3000, () => console.log("app is running"));
