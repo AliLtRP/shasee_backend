@@ -5,6 +5,7 @@ const cors = require('cors');
 const dotenv = require('dotenv').config();
 const { dbConnection } = require('./db/database');
 const authRouter = require('./routes/user.route');
+const reportRouter = require('./routes/report.router');
 
 app.use(cors({
     origin: "*",
@@ -14,6 +15,7 @@ app.use(cors({
 app.use(express.json({ limit: '10mb' }));
 
 app.use('/api/user', authRouter);
+app.use('/api/report', reportRouter);
 
 app.get('/', (req, res) => {
     res.send('hello world')
