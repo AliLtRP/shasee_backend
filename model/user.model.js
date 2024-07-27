@@ -3,13 +3,14 @@ const jwt = require("jsonwebtoken");
 const { client } = require('../db/database');
 
 async function register(req, res) {
-    const { phone, email, avatar, username, password, active } = req.body
+    const { phone, email,first_name, last_name, avatar, username, password, active } = req.body
 
+    console.log(phone, email, avatar,first_name, last_name, username, password, active);
     try {
         const hashedPassword = await bcrypt.hash(password, 10);
 
-        const query = `INSERT INTO "user" (phone, email, avatar, username, password, active)
-                       VALUES ('${phone}','${email}', '${avatar}', '${username}', '${hashedPassword}', '${active}') RETURNING *`;
+        const query = `INSERT INTO "user" (phone, email, avatar, username, password, active, first_name, last_name)
+                       VALUES ('${phone}','${email}', '${avatar}', '${username}', '${hashedPassword}', '${active}', '${first_name}', '${last_name}') RETURNING *`;
 
         const result = await client.query(query);
 
@@ -22,6 +23,7 @@ async function register(req, res) {
 async function login(req, res) {
     const { username_or_email, password } = req.body;
 
+    console.log(username_or_email, password);
     try {
         const query = `SELECT * FROM "user" WHERE username = $1 OR email= $1`;
         const result = await client.query(query, [username_or_email]);
@@ -54,9 +56,13 @@ async function login(req, res) {
 async function checkUser(req, res) {
     const token = req.headers['authorization'];
 
+    console.log(token);
     try {
         const user = jwt.decode(token);
-        res.status(200).send(user);
+        res.status(200).send({
+            success: true,
+            data: user
+        });
     } catch (e) {
         res.status(500).send('UnAuth');
     }

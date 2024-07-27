@@ -1,18 +1,16 @@
 const express = require('express');
 const app = express();
-
 const cors = require('cors');
 const dotenv = require('dotenv').config();
 const { dbConnection } = require('./db/database');
 const authRouter = require('./routes/user.route');
 const reportRouter = require('./routes/report.router');
 const subRouter = require("./routes/sub.router");
-
+const port = process.env.PORT;
 
 app.use(cors({
     origin: "*",
     credentials: true,
-    allowedHeaders: [""]
 }));
 app.use(express.json({ limit: '10mb' }));
 
@@ -25,4 +23,4 @@ app.get('/', (req, res) => {
 });
 
 dbConnection();
-app.listen(3000, () => console.log("app is running"));
+app.listen(port, () => console.log(`app is running ${port}`));
