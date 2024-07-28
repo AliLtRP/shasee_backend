@@ -1,0 +1,67 @@
+{
+    "status": "success",
+    "vin": "1FMCU0G93GUB08696",
+    "data": [
+      {
+        "sale_index": "sold-1",
+        "price": "$2,500",
+        "sale status": "Sold",
+        "vname": "2016 Ford Escape, SE",
+        "lot-number": "0-26488292",
+        "car-features": {
+          "Has_Keys": "yes",
+          "Runs_Drives": "no",
+          "Engine_Starts": "yes"
+        },
+        "title-and-condition": {
+          "Title Type": "Salvage",
+          "Title Description": "N/A",
+          "Primary Damage": "Front end",
+          "Secondary Damage": "N/A",
+          "VIN": "1FMCU0G93GUB08696",
+          "Common": "N/A"
+        },
+        "technical-specs": {
+          "Odometer": "98,042 mi (157,783 km)",
+          "Estimated Repair Cost": "$10,676",
+          "Avg. Estimated Retail Value": "N/A",
+          "Damage Ratio": "N/A",
+          "Estimated Winning Bid": "N/A",
+          "Body Style": "SUV 4 DOOR",
+          "Color": "N/A",
+          "Engine Type": "2.0L",
+          "Fuel Type": "N/A",
+          "Cylinders": "4",
+          "Transmission": "Automatic",
+          "Drive": ""
+        },
+        "sale-date-location": {
+          "Seller Type": "Progressive Casualty Insurance",
+          "Auction Date": "01-21-2020",
+          "Auction Type": "N/A",
+          "Location": "Southern New Jersey (NJ)",
+          "Buyer Country": "N/A"
+        },
+        "listing-history": {
+          "2020-01-21": "Sold $2,500"
+        },
+        "year": "2016",
+        "make": "FORD",
+        "model": "ESCAPE",
+        "images": [
+          "https://vhr-dev.sfo3.cdn.digitaloceanspaces.com/Report/auction/1FMCU0G93GUB08696/01-21-2020/img-0-0.jpg?AWSAccessKeyId=OPBFNLV5HC3ST3HB6RTF&Expires=1715273423&Signature=ZOY6WvCgOaaCKkAAGi%2FGALYx8eU%3D",
+          "https://vhr-dev.sfo3.cdn.digitaloceanspaces.com/Report/auction/1FMCU0G93GUB08696/01-21-2020/img-0-1.jpg?AWSAccessKeyId=OPBFNLV5HC3ST3HB6RTF&Expires=1715273423&Signature=s08t3EYJWoL5XtFOwwq5%2BwSWQXo%3D",
+          "https://vhr-dev.sfo3.cdn.digitaloceanspaces.com/Report/auction/1FMCU0G93GUB08696/01-21-2020/img-0-2.jpg?AWSAccessKeyId=OPBFNLV5HC3ST3HB6RTF&Expires=1715273423&Signature=U2bhfIfomb1reXzISOupplWgVcU%3D",
+          "https://vhr-dev.sfo3.cdn.digitaloceanspaces.com/Report/auction/1FMCU0G93GUB08696/01-21-2020/img-0-3.jpg?AWSAccessKeyId=OPBFNLV5HC3ST3HB6RTF&Expires=1715273423&Signature=%2BZLTaHU1RpCoWiaSQD7yR08%2BiUo%3D",
+          "https://vhr-dev.sfo3.cdn.digitaloceanspaces.com/Report/auction/1FMCU0G93GUB08696/01-21-2020/img-0-4.jpg?AWSAccessKeyId=OPBFNLV5HC3ST3HB6RTF&Expires=1715273423&Signature=aJXASL%2FKH7%2Bq1XSnjOuWVtD%2F5kQ%3D",
+          "https://vhr-dev.sfo3.cdn.digitaloceanspaces.com/Report/auction/1FMCU0G93GUB08696/01-21-2020/img-0-5.jpg?AWSAccessKeyId=OPBFNLV5HC3ST3HB6RTF&Expires=1715273423&Signature=kUGlxfqhOjIOooc9%2Fgri%2FydwU%2BE%3D",
+          "https://vhr-dev.sfo3.cdn.digitaloceanspaces.com/Report/auction/1FMCU0G93GUB08696/01-21-2020/img-0-6.jpg?AWSAccessKeyId=OPBFNLV5HC3ST3HB6RTF&Expires=1715273423&Signature=PWrJQ%2BzOtkmapMhrHskcBTqomPc%3D",
+          "https://vhr-dev.sfo3.cdn.digitaloceanspaces.com/Report/auction/1FMCU0G93GUB08696/01-21-2020/img-0-7.jpg?AWSAccessKeyId=OPBFNLV5HC3ST3HB6RTF&Expires=1715273423&Signature=gJ0rAQlB8hC69uUxJdZobhSC6rk%3D",
+          "https://vhr-dev.sfo3.cdn.digitaloceanspaces.com/Report/auction/1FMCU0G93GUB08696/01-21-2020/img-0-8.jpg?AWSAccessKeyId=OPBFNLV5HC3ST3HB6RTF&Expires=1715273423&Signature=Z0FMMuujIgqv4iBAK4cbLuIlamc%3D",
+          "https://vhr-dev.sfo3.cdn.digitaloceanspaces.com/Report/auction/1FMCU0G93GUB08696/01-21-2020/img-0-9.jpg?AWSAccessKeyId=OPBFNLV5HC3ST3HB6RTF&Expires=1715273423&Signature=716XFwVl%2BhUY7ZROTgN5FoRZ3VU%3D"
+        ],
+        "market-value": {},
+        "vin": "1FMCU0G93GUB08696"
+      }
+    ]
+  }
